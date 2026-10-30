@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- 第 1 道保险：检查神经迫击炮 Mod 是否被启用 -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <!--Mod 显示名-->
+      <li>Wetware - NeuroMortar</li>
+    </mods>
+    <match Class="PatchOperationConditional">
+
+      <!--检查 Wetware 异种是否已经存在-->
+      <xpath>Defs/XenotypeDef[defName="Wetware"]</xpath>
+
+      <!--存在才向它的 genes 列表追加基因-->
+      <match Class="PatchOperationAdd">
+        <xpath>Defs/XenotypeDef[defName="Wetware"]/genes</xpath>
+        <value>
+          <li>PawnMortar_NeuroLink</li>
+        </value>
+      </match>
+
+    </match>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <BandwidthCasket_Booster.label>Bandwidth Boost</BandwidthCasket_Booster.label>
+  <BandwidthCasket_Booster.labelShortAdj>Boosted</BandwidthCasket_Booster.labelShortAdj>
+  <BandwidthCasket_Booster.description>Carriers of this gene possess a nervous system that couples with the Bandwidth Casket far more efficiently, providing greater mech bandwidth when serving as a living component.</BandwidthCasket_Booster.description>
+  <BandwidthCasket_Booster.customEffectDescriptions.0>Provides +12 bandwidth to the Bandwidth Casket when serving as a living component</BandwidthCasket_Booster.customEffectDescriptions.0>
+</LanguageData>
